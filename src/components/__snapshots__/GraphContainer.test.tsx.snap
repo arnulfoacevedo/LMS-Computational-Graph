@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`edges and add node itself should be removed after removing add node 1`] = `
+Object {
+  "edges": Array [],
+  "nodes": Array [
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_1",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "0",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_2",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "1",
+      "position": Object {
+        "x": 200,
+        "y": 200,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+  ],
+}
+`;
+
+exports[`edges and sum node itself should be removed after removing sum node 1`] = `
+Object {
+  "edges": Array [],
+  "nodes": Array [
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_1",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "0",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_2",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "1",
+      "position": Object {
+        "x": 200,
+        "y": 200,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+  ],
+}
+`;
+
+exports[`should have different node types on the graph after dropping nodes 1`] = `
+Object {
+  "edges": Array [],
+  "nodes": Array [
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_1",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "0",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "variable",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "v_1",
+        "operationData": null,
+        "outputItems": Array [
+          Object {
+            "labelParts": Array [
+              Object {
+                "href": "1",
+                "id": "derivative",
+                "latex": "\\\\displaystyle \\\\frac{\\\\partial{?}}{\\\\partial{v_1}}",
+                "type": "latexLink",
+              },
+              Object {
+                "id": "equal",
+                "latex": "=",
+                "type": "latex",
+              },
+            ],
+            "type": "derivative",
+            "value": "0",
+          },
+        ],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "1",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "operation",
+          "operationId": "sum",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "x_i",
+            "label": "x_i",
+            "showHandle": true,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "s_1",
+        "operationData": Object {
+          "helpText": "Add all inputs: sum_i x_i, i.e., x_0 + x_1 + ...",
+          "name": "Sum",
+        },
+        "outputItems": Array [
+          Object {
+            "labelParts": Array [
+              Object {
+                "id": "value",
+                "latex": "=",
+                "type": "latex",
+              },
+            ],
+            "type": "value",
+            "value": "0",
+          },
+          Object {
+            "labelParts": Array [
+              Object {
+                "href": "2",
+                "id": "derivative",
+                "latex": "\\\\displaystyle \\\\frac{\\\\partial{?}}{\\\\partial{s_1}}",
+                "type": "latexLink",
+              },
+              Object {
+                "id": "equal",
+                "latex": "=",
+                "type": "latex",
+              },
+            ],
+            "type": "derivative",
+            "value": "0",
+          },
+        ],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "2",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": true,
+      "type": "custom",
+      "width": 1,
+    },
+  ],
+}
+`;
+
+exports[`should select the last dropped node 1`] = `
+Object {
+  "edges": Array [],
+  "nodes": Array [
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_1",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "0",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": false,
+      "type": "custom",
+      "width": 1,
+    },
+    Object {
+      "data": Object {
+        "featureNodeType": Object {
+          "nodeType": "constant",
+        },
+        "inputItems": Array [
+          Object {
+            "id": "value",
+            "label": "=",
+            "showHandle": false,
+            "showInputField": true,
+            "value": "0",
+          },
+        ],
+        "isDarkMode": false,
+        "isHighlighted": false,
+        "name": "c_2",
+        "operationData": null,
+        "outputItems": Array [],
+      },
+      "dragHandle": ".drag-handle",
+      "height": 1,
+      "id": "1",
+      "position": Object {
+        "x": 100,
+        "y": 100,
+      },
+      "selected": true,
+      "type": "custom",
+      "width": 1,
+    },
+  ],
+}
+`;
